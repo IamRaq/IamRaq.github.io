@@ -1,42 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
-  <link href="public/css/style.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,600,700,800" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"
+    />
+    <link href="public/css/style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik:300,400,600,700,800"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Raq Robinson</title>
-</head>
-<body>
-  <div class="container">
+    <title>Raq Robinson</title>
+  </head>
+  <body>
+    <div class="container">
+      <header id="header">
+        <h3 id="logo"><a href="index.html">RAQ</a></h3>
 
-<header id="header">
+        <nav>
+          <a href="#" id="menu-icon"></a>
+          <ul class="navUL">
+            <li><a href="index.html">About</a></li>
+            <li style="background-color: white">
+              <a href="projects.html">Projects</a>
+            </li>
+            <li><a href="cv.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- <li><a href="talks.html">Talks</a></li> -->
+            <!-- <li><a href="creative.html">Personal</a></li> -->
+          </ul>
+        </nav>
+      </header>
+      <!-- /header -->
+      <br /><br />
+      <br /><br />
+      <br /><br />
 
-  <h3 id="logo"><a href="index.html">RAQ</a></h3>
-
-  <nav>
-    <a href="#" id="menu-icon"></a>
-    <ul class="navUL">
-      <li><a href="index.html">About</a></li>
-      <li style = "background-color: white"><a href="projects.html">Projects</a></li>
-      <li><a href="cv.html">Resume</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <!-- <li><a href="talks.html">Talks</a></li> -->
-      <!-- <li><a href="creative.html">Personal</a></li> -->
-
-    </ul>
-
-  </nav>
-
- </header> <!-- /header -->
- <br><br>
- <br><br>
- <br><br>
-
- <section class="mw7 center avenir">
-  
-  <article class="bb b--black-10">
+      <section class="mw7 center avenir">
+        <!-- <article class="bb b--black-10">
     <a class="db pv4 ph3 ph0-l no-underline black dim" href="https://stock-up.netlify.com/" target="blank">
       <div class="flex flex-column flex-row-ns">
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
@@ -68,65 +71,123 @@
         </div>
       </div>
     </a>
-  </article>
+  </article> -->
 
-  <article class="bt bb b--black-10">
-    <a class="db pv4 ph3 ph0-l no-underline black dim" href="https://play-dobble.netlify.com/" target="blank">
-      <div class="flex flex-column flex-row-ns">
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <img src="public/img/flobble.png" class="db" alt="screen shot of flobble app">
-        </div>
-        <div class="w-100 w-60-ns pl3-ns">
-          <h1 class="f3 fw1 baskerville mt0 lh-title">FLOBBLE</h1>
-          <p class="f6 f5-l lh-copy">
-            An online version of “Dobble,” a card game where users aim to find the unique matching element 
-            with other cards in the deck.
-          </p>
-          <p class="f6 lh-copy mv0 i"> [ JavaScript, Ruby on Rails ] </p>
-        </div>
-      </div>
-    </a>
-  </article>
-  
-  <article class="bb b--black-10">
-    <a class="db pv4 ph3 ph0-l no-underline black dim" href="https://www.loom.com/share/4d50e0e68b004e8aafd0ee955836fb5d" target = "blank">
-      <div class="flex flex-column flex-row-ns">
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <img src="public/img/hot-play.png" class="db" alt="screen shot of hotplay app">
-        </div>
-        <div class="w-100 w-60-ns pl3-ns">
-          <h1 class="f3 fw1 baskerville mt0 lh-title">HOT PLAY</h1>
-          <p class="f6 f5-l lh-copy">
-            A YouTube integrated Slack clone for sharing, discussing and discovering new music based on genre.
-          </p>
-          <p class="f6 lh-copy mv0 i"> [ React.js, Ruby on Rails ] </p>
-        </div>
-      </div>
-    </a>
-  </article>
-  <article class="bb b--black-10">
-    <a class="db pv4 ph3 ph0-l no-underline black dim" href="https://www.loom.com/share/a7f9d086ba9e4b0d916cc452b142e9cc" target = "blank">
-      <div class="flex flex-column flex-row-ns">
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <img src="public/img/nurture.png" class="db" alt="screen shot of nurture app">
-        </div>
-        <div class="w-100 w-60-ns pl3-ns">
-          <h1 class="f3 fw1 baskerville mt0 lh-title">NURTURE PLANT SHOP</h1>
-          <p class="f6 f5-l lh-copy">
-            A single page ecommerce web app offering users an interactive and convenient way to learn about 
-            and shop for house plants. 
-          </p>
-          <p class="f6 lh-copy mv0 i"> [ React.js, Ruby on Rails ] </p>
-        </div>
-      </div>
-    </a>
-  </article>
-</section>
+        <article class="bb b--black-10">
+          <a
+            class="db pv4 ph3 ph0-l no-underline black dim"
+            href="https://www.massmutual.com/financial-wellness/calculators"
+            target="blank"
+          >
+            <div class="flex flex-column flex-row-ns">
+              <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+                <img
+                  src="public/img/mm-calculators.png"
+                  class="db"
+                  alt="screen shot massmutual financial calculators page"
+                />
+              </div>
+              <div class="w-100 w-60-ns pl3-ns">
+                <h1 class="f3 fw1 baskerville mt0 lh-title">
+                  FINANCIAL PLANNING TOOLS
+                </h1>
+                <p class="f6 f5-l lh-copy">
+                  Led a full overhaul of MassMutual’s public-facing financial
+                  calculators by migrating legacy tools into a unified,
+                  component-driven architecture. Modernized the frontend with
+                  React + TypeScript, decoupled business logic into reusable
+                  services, and introduced CI/CD + automated testing to support
+                  long-term maintainability.
+                </p>
+                <p class="f6 lh-copy mv0 i">
+                  [ React, Typescript, Node.js, Jest, CI/CD ]
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
 
+        <article class="bt bb b--black-10">
+          <a
+            class="db pv4 ph3 ph0-l no-underline black dim"
+            href="https://robin-raq.github.io/Dobl-frontend-/"
+            target="blank"
+          >
+            <div class="flex flex-column flex-row-ns">
+              <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+                <img
+                  src="public/img/flobble.png"
+                  class="db"
+                  alt="screen shot of flobble app"
+                />
+              </div>
+              <div class="w-100 w-60-ns pl3-ns">
+                <h1 class="f3 fw1 baskerville mt0 lh-title">DOBBLE</h1>
+                <p class="f6 f5-l lh-copy">
+                  An online version of “Dobble,” a card game where users aim to
+                  find the unique matching element with other cards in the deck.
+                </p>
+                <p class="f6 lh-copy mv0 i">[ JavaScript, Ruby on Rails ]</p>
+              </div>
+            </div>
+          </a>
+        </article>
 
-</div>
-</body>
-<script src="public/js/jquery.js" type="text/javascript"></script>
-<script src="public/js/script.js" type="text/javascript"></script>
-
+        <article class="bb b--black-10">
+          <a
+            class="db pv4 ph3 ph0-l no-underline black dim"
+            href="https://www.loom.com/share/4d50e0e68b004e8aafd0ee955836fb5d"
+            target="blank"
+          >
+            <div class="flex flex-column flex-row-ns">
+              <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+                <img
+                  src="public/img/hot-play.png"
+                  class="db"
+                  alt="screen shot of hotplay app"
+                />
+              </div>
+              <div class="w-100 w-60-ns pl3-ns">
+                <h1 class="f3 fw1 baskerville mt0 lh-title">HOT PLAY</h1>
+                <p class="f6 f5-l lh-copy">
+                  A YouTube integrated Slack clone for sharing, discussing and
+                  discovering new music based on genre.
+                </p>
+                <p class="f6 lh-copy mv0 i">[ React.js, Ruby on Rails ]</p>
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="bb b--black-10">
+          <a
+            class="db pv4 ph3 ph0-l no-underline black dim"
+            href="https://www.loom.com/share/a7f9d086ba9e4b0d916cc452b142e9cc"
+            target="blank"
+          >
+            <div class="flex flex-column flex-row-ns">
+              <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+                <img
+                  src="public/img/nurture.png"
+                  class="db"
+                  alt="screen shot of nurture app"
+                />
+              </div>
+              <div class="w-100 w-60-ns pl3-ns">
+                <h1 class="f3 fw1 baskerville mt0 lh-title">
+                  NURTURE PLANT SHOP
+                </h1>
+                <p class="f6 f5-l lh-copy">
+                  A single page ecommerce web app offering users an interactive
+                  and convenient way to learn about and shop for house plants.
+                </p>
+                <p class="f6 lh-copy mv0 i">[ React.js, Ruby on Rails ]</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      </section>
+    </div>
+  </body>
+  <script src="public/js/jquery.js" type="text/javascript"></script>
+  <script src="public/js/script.js" type="text/javascript"></script>
 </html>
